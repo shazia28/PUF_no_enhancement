@@ -1,0 +1,19 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8888
+    },
+    "rlwe_parameters": {
+        "n": 256,
+        "q": 7681,
+        "sigma": 3.2
+    },
+    "puf_parameters": {
+        "num_crps": 10,
+        "response_size": 32
+    },
+    "security": {
+        "session_timeout": 3600,
+        "max_failed_attempts": 3
+    }
+}
